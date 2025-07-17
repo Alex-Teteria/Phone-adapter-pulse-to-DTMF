@@ -1,5 +1,13 @@
+# Формує PWM семпли для гармонік DTMF сигналів та записує їх у окремі файли для нижніх (697, 770, 852, 941) та ферхніх (1209, 1336 1477, 1633) DTMF-частот
+# формат файлів - json: {"частота": [семпли]}, як приклад, {"852": [32767, 46905, 58275, 64653, ..., семпли], ...}
+# ----------------------------------------------
+# Author: Alex Teteria
+# v0.5
+# 11.07.2025
+# Implemented and tested on Pi Pico with RP2040
+# Released under the MIT license
+
 import math
-# from machine import Pin, PWM
 import json
 
 
