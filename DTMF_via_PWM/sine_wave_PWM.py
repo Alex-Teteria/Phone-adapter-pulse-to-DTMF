@@ -1,5 +1,11 @@
 # Формуємо гармонічні сигнали за допомогою ШІМ 
 # DTMF - через об'єднання гармонік з двох різних виходів через резистори
+# -----------------------------------------------
+# Author: Alex Teteria
+# v0.2
+# 11.07.2025
+# Implemented and tested on Pi Pico with RP2040
+# Released under the MIT license
  
 import math
 import machine
