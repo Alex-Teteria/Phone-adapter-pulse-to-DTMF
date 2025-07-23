@@ -18,7 +18,26 @@
 ### ДС (дифсистема):
 ![20250717_134753](https://github.com/user-attachments/assets/8478eeec-4703-4dfa-ab44-5ac7a9e0fe56)
 ## Зовнішній вигляд монтажу
-![20250722_103603](https://github.com/user-attachments/assets/79e18c2b-a24e-4729-bf15-beae6289af95)
+![20250722_103603](https://github.com/user-attachments/assets/adf47ed0-70b2-45fb-a9be-79b0adef92c2)
+### Деякі доповнення до схеми  
+* Рівень прийому піднято приблизно на 1Нп (в 3 рази), для чого використано модуль підсилювача **LM386**, який включено на виході дифсистеми по прийому (між вив.2 дифсистеми та виходом ТЛФ прм.)
+* Як DC-DC перетворювач напруги 24v/5v використано модуль **DD4012SA**. Його основні характеристики: 
+    * Input voltage 5~40V, output 3.3V or 5V
+    * Maximum output current 1A
+    * DC-DC Step-Down Converter module working frequency 550KHz. efficiency is 76-90%
+    * Quiescent current: about 1.5mA 
+
+* Адаптер напруги ~220В / =24В використано з вихідним струмом 650 mA.
+
+	
+  
+  
+  
+
+
+
+
+
 
 
 
